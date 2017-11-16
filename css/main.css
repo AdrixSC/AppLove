@@ -12,7 +12,7 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 1% 4%;
   font-size: 16px;
   line-height: 1.71429;
 }
@@ -59,6 +59,7 @@ img {
 a {
   color: #373B47;
   text-decoration: none;
+  margin-left: 15px;
 }
 
 a:hover {
@@ -71,3 +72,129 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+header {
+  position: static; /*quiero ponerle fixed pero no funciona...*/
+  overflow: hidden;
+  height: 90px;
+
+}
+
+.contenedor-general {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.color-fondo {
+  background-color: #f17c72;
+  position: absolute;
+}
+
+.header > div > a {
+  padding-left: 10px;
+}
+
+.position-text {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.position-img {
+  position: absolute;
+}
+
+.position-logo  {
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+
+.position-logo img {
+  width: 21%;
+  /*position: relative;*/
+  margin-right: 171px;
+  margin-top: -50px;
+}
+
+.style-header {
+  float: left; /*  */
+  width: 70%;
+  margin-left: 20px;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.square-green {
+  width: 53px;
+  height: 27px;
+  background-color: green;
+  position: relative;
+  margin-left: 50%;
+}
+
+.separation {
+  margin-bottom: 22.9%;
+}
+
+.separation > position-img {
+  width: 100%; /* margen para que ocupe el 100% de su contenedor, cómo ajustarlo??*/
+}
+
+.three-images > img {
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  padding: 7%;
+  margin-left: 2%;
+}
+
+.style-text-pink {
+  color: white;
+  text-align: center;
+}
+
+.font-white {
+  text-align: center;
+  color: white;
+  line-height: 0px;
+  font-weight: bold;
+}
+
+#block {
+  display: inline-block;
+  /*margin-left: 10%;*/
+}
+
+.margin1 {
+  margin-left: 15%;
+}
+
+.margin2 {
+  margin-left: 35%;
+}
+
+.margin3 {
+  margin-left: 55%;
+}
+
+.size-image {
+  width: 80%;
+  height: 80%
+}
+
+.separation2{
+  margin-top: 90%;
+}
+
+#center {
+  text-align: center;
+}
+
+.space {
+  margin-bottom: 5%;
+}
+
+footer {
+  margin-bottom: 100%;
+}
