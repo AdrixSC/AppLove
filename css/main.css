@@ -72,11 +72,27 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+footer {
+  background-color: #000000;
+  color: white;
+  margin-top: 20%;
+  text-align: center;
+  padding: 1%;
+}
+
 header {
-  position: static; /*quiero ponerle fixed pero no funciona...*/
+  position: static; /*quiero ponerle fixed pero no me queda... T__T*/
   overflow: hidden;
   height: 90px;
+}
 
+#block {
+  display: inline-block;
+  /*margin-left: 10%;*/
+}
+
+#center {
+  text-align: center;
 }
 
 .contenedor-general {
@@ -87,10 +103,7 @@ header {
 .color-fondo {
   background-color: #f17c72;
   position: absolute;
-}
-
-.header > div > a {
-  padding-left: 10px;
+  margin-top: -9%;
 }
 
 .position-text {
@@ -107,13 +120,6 @@ header {
   float: right;
   width: 30%;
   text-align: right;
-}
-
-.position-logo img {
-  width: 21%;
-  /*position: relative;*/
-  margin-right: 171px;
-  margin-top: -50px;
 }
 
 .style-header {
@@ -134,19 +140,7 @@ header {
 }
 
 .separation {
-  margin-bottom: 22.9%;
-}
-
-.separation > position-img {
-  width: 100%; /* margen para que ocupe el 100% de su contenedor, cómo ajustarlo??*/
-}
-
-.three-images > img {
-  display: inline-block;
-  width: 30%;
-  height: 30%;
-  padding: 7%;
-  margin-left: 2%;
+  margin-bottom: 42%;
 }
 
 .style-text-pink {
@@ -159,11 +153,6 @@ header {
   color: white;
   line-height: 0px;
   font-weight: bold;
-}
-
-#block {
-  display: inline-block;
-  /*margin-left: 10%;*/
 }
 
 .margin1 {
@@ -184,17 +173,53 @@ header {
 }
 
 .separation2{
-  margin-top: 90%;
-}
-
-#center {
-  text-align: center;
+  margin-top: 100%;
 }
 
 .space {
   margin-bottom: 5%;
 }
 
-footer {
-  margin-bottom: 100%;
+.bloque1 > img{
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  margin-top: 110%;
+}
+
+.bloque2 > img{
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  margin-top: 15%;
+}
+
+.bloque3 > img{
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  margin-top: 15%;
+}
+
+.separation > position-img {
+  width: 100%; /* margen para que ocupe el 100% de su contenedor, cómo ajustarlo??*/
+}
+
+.three-images > img {
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  padding: 7%;
+  margin-left: 2%;
+}
+
+.position-logo img {
+  width: 21%;
+  /*position: relative;*/
+  margin-right: 171px;
+  margin-top: -50px;
+}
+
+.header > div > a {
+  padding-left: 10px;
 }

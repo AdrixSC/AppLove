@@ -21,13 +21,13 @@ Para completar tu web **AppLove** hemos creado este repositorio boilerplate (pla
 
 El reto consiste en maquetar la web **AppLove**, este es el resultado final:
 
-![AppLove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png) 
+![AppLove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png)
 
 ## Detalles adicionales
 
 - Encontrarás un archivo base `index.html` el cual contiene una estructura inicial sobre la que deberás completar tu proyecto.
 
-- En la carpeta `css` tendrás un archivo base `main.css` donde hay clases reutilizables, quiere decir que dichas clases pueden ser usadas más de una vez. Por ejemplo: 
+- En la carpeta `css` tendrás un archivo base `main.css` donde hay clases reutilizables, quiere decir que dichas clases pueden ser usadas más de una vez. Por ejemplo:
 
     ```CSS
     .text-uppercase {
@@ -39,7 +39,7 @@ El reto consiste en maquetar la web **AppLove**, este es el resultado final:
 
 - El `header` tiene que estar **estático**, como se muestra en la siguiente _imagen gif_:
 
-![AppLove-gif](https://fotos.subefotos.com/da068e44cb72b36ba6c4458130c00185o.gif) 
+![AppLove-gif](https://fotos.subefotos.com/da068e44cb72b36ba6c4458130c00185o.gif)
 
 - Dentro de la carpeta `assets` se encuentra la carpeta `images` donde encontrarás todas las imágenes necesarias para completar tu proyecto.
 
@@ -57,3 +57,12 @@ Este reto sera evaluado sobre lo siguiente:
 - Estructura de tus archivos
 - Archivo `README.md` actualizado y correctamente redactado
 - Uso de comentarios para hacer tu código más legible
+
+###Pseudocódigo
+
+Darle estilo en el css a la estructura de html que se está entregando
+
+1. Linkear imágenes y aplicarles una posición absoluta y en el caso de los textos que deben ir encima de la imagen, aplicarles una posición relativa
+2. Aplicar un display in-block a los textos y a las imágenes de la segunda sección
+3. Darles margen, alineación centrada a los textos y cambio de color y linkear el tipo de fuente.
+4. Reutilizar el estilo touppercase para los textos.
