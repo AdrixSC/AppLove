@@ -95,6 +95,17 @@ header {
   text-align: center;
 }
 
+#block-text > p {
+  display: inline-block;
+  margin: 0 35px;
+  padding: 10px;
+}
+
+.margin-style > div {
+  display: inline-block;
+  margin: 0 80px;
+}
+
 .contenedor-general {
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
@@ -155,17 +166,7 @@ header {
   font-weight: bold;
 }
 
-.margin1 {
-  margin-left: 15%;
-}
 
-.margin2 {
-  margin-left: 35%;
-}
-
-.margin3 {
-  margin-left: 55%;
-}
 
 .size-image {
   width: 80%;
